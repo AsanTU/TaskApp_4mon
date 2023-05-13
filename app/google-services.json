@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "876167273592",
+    "project_id": "taskapp1-eb8bf",
+    "storage_bucket": "taskapp1-eb8bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876167273592:android:32ebc31f31eeca4697218d",
+        "android_client_info": {
+          "package_name": "io.muhsin.taskapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876167273592-28fjabq8bfl1ddt2h5gc3eicnbjgquom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmN2hXXG0jCLpgNO3rL3kzik7_SIcisj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876167273592-28fjabq8bfl1ddt2h5gc3eicnbjgquom.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

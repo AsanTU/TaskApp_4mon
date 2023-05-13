@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="io.muhsin.taskapp.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_navigation_home_to_taskFragment"
+            app:destination="@id/taskFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="io.muhsin.taskapp.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="io.muhsin.taskapp.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/taskFragment"
+        android:name="io.muhsin.taskapp.ui.task.TaskFragment"
+        android:label="Task"
+        tools:layout="@layout/fragment_task"></fragment>
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="io.muhsin.taskapp.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/onBoardingFragment"
+        android:name="io.muhsin.taskapp.ui.onBoard.OnBoardingFragment"
+        android:label="fragment_on_boarding"
+        tools:layout="@layout/fragment_on_boarding" />
+    <fragment
+        android:id="@+id/acceptCodeFragment"
+        android:name="io.muhsin.taskapp.ui.auth.accept.AcceptCodeFragment"
+        android:label="fragment_accept_code"
+        tools:layout="@layout/fragment_accept_code" />
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="io.muhsin.taskapp.ui.auth.AuthFragment"
+        android:label="fragment_auth"
+        tools:layout="@layout/fragment_auth" />
+    <fragment
+        android:id="@+id/verifyNumberFragment"
+        android:name="io.muhsin.taskapp.ui.auth.verify.VerifyNumberFragment"
+        android:label="fragment_verify_number"
+        tools:layout="@layout/fragment_verify_number" />
+</navigation>
